@@ -157,10 +157,19 @@ We will start by the `IDENTIFICATION DIVISION` and end to `PROCEDURE DIVISION`
 ### the IDENTIFICATION DIVISION.
 ``` cpl
 #   IDENTIFICATION DIVISION.
-##  PROGRAM-ID.      PAYROL.
+##  PROGRAM-ID.      FINATICAL-AUDIT.
 ### AUTOR-INTENT.
-                "Organized this years payrol from 2025
+                "Organized this years finance from 2025
                 and create a clear excel sheet to calculate the most to least cost
                 per week and month, and see what when up
                 and what went down for this year."
 ```
+This will be your header of the prompt, tell you what the name, the date, and what it purpose. 
+The **IDENTIFICATION DIVISION** will be the most important part of the prompt and will be the keystone.
+This must be written clearly and thoughtfully otherwise the rest will have to to the heavy lifting.
+
+Under our example `FINATICAL-AUDIT` we are telling the model to check the finances for last year report.
+The name *FINATICAL-AUIT* under the PROGRAM-ID will be the name for the program.
+The short promptheader under the *AUTOR-INTENT* explain what it purpose and goals.
+
+This can help use create clear goals for LM models, either SLM or LLM, to make sure that the can built what we want without drifting into unneeded creations.
