@@ -148,13 +148,13 @@ This type of **prompt language** is design for building and organizing prompt wi
     	PERFORM 900-GENERATE-TYPESCRIPT-MODULES.
 
     	STOP RUN.
-```
+``` cpl
 
 # INSTRUCTION OF COPOL, DIVISION BY DIVISION.
 We are learn COPOL in the best way possible, *DIVISION BY DIVISION* to understand the start of the prompting language to the end.
 We will start by the `IDENTIFICATION DIVISION` and end to `PROCEDURE DIVISION`
 
-### the IDENTIFICATION DIVISION.
+### The IDENTIFICATION DIVISION.
 ``` cpl
 #   IDENTIFICATION DIVISION.
 ##  PROGRAM-ID.      FINATICAL-AUDIT.
@@ -175,8 +175,8 @@ The short promptheader under the *AUTOR-INTENT* explain what it purpose and goal
 This can help use create clear goals for LM models, either SLM or LLM,
 to make sure that the can built what we want without drifting into unneeded creations.
 
-### the ENVIRONMENT DIVISION
-```
+### The ENVIRONMENT DIVISION.
+``` cpl
 #    ENVIRONMENT DIVISION.
 ##   INPUT-CONTEXT
 ### TONE-CONFIGURATION. CLEAR, PROFESSIONAL, PLAIN-ENGLISH.
@@ -200,6 +200,12 @@ to make sure that the can built what we want without drifting into unneeded crea
      SELECT FINANCAIL-ANALYSIS  ASSIGN TO "FINANCAIL-ANALYSIS-FILE".
 ```
 This will be the body of the prompt that explains what it need and what it do not need to create or make what you will need.
-it haves `SECTIONS` within the divisions so it can be organize by tones, output limits the restrictions of the what the LM can and cannot do.
+it haves `SECTIONS` within the divisions so it can be organize by tones,
+output limits the restrictions of the what the LM can and cannot do.
 along with the *OUTPUT-CONTROL-LIST* `PERMIT` ***WHAT IT CAN DO***, `DINY` ***WHAT IT CANNOT DO***. 
-and the assign to what you will need in order to assign to each anget.
+and the assign to what you will need in order to assign to each agents or subagents.
+
+### The DATA DIVISION.
+```
+
+```
